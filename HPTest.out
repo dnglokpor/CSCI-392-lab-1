@@ -1,0 +1,1201 @@
+>>>test 1<<<
+input	convolution	channels: 8	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 10 with loss 0.65450 and  accuracy 0.96423
+
+>>>test 2<<<
+input	convolution	channels: 16	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 12 with loss 0.47489 and  accuracy 0.97593
+
+>>>test 3<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 8 with loss 0.57175 and  accuracy 0.97140
+
+>>>test 4<<<
+input	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 8 with loss 0.55703 and  accuracy 0.97243
+
+>>>test 5<<<
+input	convolution	channels: 128	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 9 with loss 0.41235 and  accuracy 0.97500
+
+>>>test 6<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 8	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 14 with loss 0.66370 and  accuracy 0.95387
+
+>>>test 7<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 16	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 10 with loss 0.59335 and  accuracy 0.96363
+
+>>>test 8<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 12 with loss 0.50475 and  accuracy 0.97553
+
+>>>test 9<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 128	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 11 with loss 0.45024 and  accuracy 0.97793
+
+>>>test 10<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 8	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 11 with loss 0.87461 and  accuracy 0.94853
+
+>>>test 11<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 16	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 12 with loss 0.70952 and  accuracy 0.96377
+
+>>>test 12<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 11 with loss 0.53420 and  accuracy 0.96617
+
+>>>test 13<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 128	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 9 with loss 0.33908 and  accuracy 0.98030
+
+>>>test 14<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 8	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 11 with loss 0.92596 and  accuracy 0.96583
+
+>>>test 15<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 16	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 14 with loss 0.75719 and  accuracy 0.97313
+
+>>>test 16<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 32	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 10 with loss 0.42963 and  accuracy 0.97357
+
+>>>test 17<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 128	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 10 with loss 0.43370 and  accuracy 0.97793
+
+>>>test 18<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 8	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 8	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 13 with loss 1.32046 and  accuracy 0.90703
+
+>>>test 19<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 16	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 16	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 13 with loss 0.81717 and  accuracy 0.93870
+
+>>>test 20<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 11 with loss 0.66500 and  accuracy 0.96637
+
+>>>test 21<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 128	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 128	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 8 with loss 0.32721 and  accuracy 0.98050
+
+>>>test 22<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 8	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 8	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 8	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 13 with loss 1.71018 and  accuracy 0.81633
+
+>>>test 23<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 16	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 16	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 16	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 12 with loss 1.35121 and  accuracy 0.92263
+
+>>>test 24<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 32	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 14 with loss 0.69880 and  accuracy 0.96210
+
+>>>test 25<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 128	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 128	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 128	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 8 with loss 0.34644 and  accuracy 0.98040
+
+>>>test 26<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	dropout	rate: 0.2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 11 with loss 0.48420 and  accuracy 0.97587
+
+>>>test 27<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	dropout	rate: 0.2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 11 with loss 0.55089 and  accuracy 0.97820
+
+>>>test 28<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dropout	rate: 0.2
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 9 with loss 0.47633 and  accuracy 0.97400
+
+>>>test 29<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	dropout	rate: 0.3
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 13 with loss 0.41691 and  accuracy 0.97853
+
+>>>test 30<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	dropout	rate: 0.3
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 12 with loss 0.49133 and  accuracy 0.97677
+
+>>>test 31<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dropout	rate: 0.3
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 11 with loss 0.47680 and  accuracy 0.97740
+
+>>>test 32<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	dropout	rate: 0.5
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 11 with loss 0.44628 and  accuracy 0.97587
+
+>>>test 33<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	dropout	rate: 0.5
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 13 with loss 0.52832 and  accuracy 0.97293
+
+>>>test 34<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dropout	rate: 0.5
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 12 with loss 0.60952 and  accuracy 0.97527
+
+>>>test 35<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	dropout	rate: 0.2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	dropout	rate: 0.2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 11 with loss 0.50823 and  accuracy 0.97647
+
+>>>test 36<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	dropout	rate: 0.3
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	dropout	rate: 0.3
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 14 with loss 0.50390 and  accuracy 0.98100
+
+>>>test 37<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	dropout	rate: 0.5
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	dropout	rate: 0.5
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 12 with loss 0.67237 and  accuracy 0.97137
+
+>>>test 38<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	dropout	rate: 0.2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	dropout	rate: 0.2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dropout	rate: 0.2
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 13 with loss 0.50330 and  accuracy 0.97877
+
+>>>test 39<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	dropout	rate: 0.3
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	dropout	rate: 0.3
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dropout	rate: 0.3
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 12 with loss 0.58306 and  accuracy 0.97693
+
+>>>test 40<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	dropout	rate: 0.5
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	dropout	rate: 0.5
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dropout	rate: 0.5
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 13 with loss 1.01514 and  accuracy 0.96213
+
+>>>test 41<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.01
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 13 with loss 0.60584 and  accuracy 0.97657
+
+>>>test 42<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.01
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 1 with loss 2.30114 and  accuracy 0.11350
+
+>>>test 43<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.01
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 7 with loss 1.89779 and  accuracy 0.67087
+
+>>>test 44<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.01
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 12 with loss 0.70388 and  accuracy 0.97533
+
+>>>test 45<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.01
+Best validation at epoch 10 with loss 0.47385 and  accuracy 0.97537
+
+>>>test 46<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.02
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 8 with loss 0.44315 and  accuracy 0.97233
+
+>>>test 47<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.02
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 1 with loss 2.30121 and  accuracy 0.11350
+
+>>>test 48<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.02
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 1 with loss 2.30118 and  accuracy 0.11350
+
+>>>test 49<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.02
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 11 with loss 1.06157 and  accuracy 0.96860
+
+>>>test 50<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.02
+Best validation at epoch 12 with loss 0.45302 and  accuracy 0.97707
+
+>>>test 51<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.01
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.01
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 1 with loss 2.30118 and  accuracy 0.11350
+
+>>>test 52<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.01
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.01
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 1 with loss 2.30116 and  accuracy 0.11350
+
+>>>test 53<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.01
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.01
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 1 with loss 2.30114 and  accuracy 0.11350
+
+>>>test 54<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.01
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.01
+Best validation at epoch 10 with loss 0.72114 and  accuracy 0.97167
+
+>>>test 55<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.01
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.01
+Best validation at epoch 10 with loss 0.49455 and  accuracy 0.97570
+
+>>>test 56<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.01
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.01
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.01
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 1 with loss 2.30117 and  accuracy 0.11350
+
+>>>test 57<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.01
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.01
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.01
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 1 with loss 2.30110 and  accuracy 0.11350
+
+>>>test 58<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.01
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.01
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.01
+Best validation at epoch 1 with loss 2.31112 and  accuracy 0.11350
+
+>>>test 59<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.01
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.01
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.01
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 1 with loss 2.30111 and  accuracy 0.11350
+
+>>>test 60<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.01
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.01
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.01
+Best validation at epoch 10 with loss 0.76268 and  accuracy 0.97230
+
+>>>test 61<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	batchnorm	
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 10 with loss 0.46533 and  accuracy 0.97507
+
+>>>test 62<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	batchnorm	
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 5 with loss 0.34574 and  accuracy 0.96860
+
+>>>test 63<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	batchnorm	
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 10 with loss 0.31605 and  accuracy 0.97260
+
+>>>test 64<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+hidden	batchnorm	
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 8 with loss 0.35766 and  accuracy 0.97487
+
+>>>test 65<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+hidden	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+output	batchnorm	
+Best validation at epoch 2 with loss 9.24956 and  accuracy 0.10833
+
+>>>test 66<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	batchnorm	
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	batchnorm	
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 10 with loss 0.44501 and  accuracy 0.97017
+
+>>>test 67<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	batchnorm	
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	batchnorm	
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 8 with loss 0.40474 and  accuracy 0.97177
+
+>>>test 68<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	batchnorm	
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+hidden	batchnorm	
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 10 with loss 0.37761 and  accuracy 0.97897
+
+>>>test 69<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	batchnorm	
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	batchnorm	
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	batchnorm	
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 10 with loss 0.49582 and  accuracy 0.97540
+
+>>>test 70<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	batchnorm	
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	batchnorm	
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 7 with loss 0.35418 and  accuracy 0.97223
+
+>>>test 71<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	batchnorm	
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+hidden	batchnorm	
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 7 with loss 0.47992 and  accuracy 0.97070
+
+>>>test 72<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	batchnorm	
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	batchnorm	
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	batchnorm	
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+hidden	batchnorm	
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 9 with loss 0.37022 and  accuracy 0.97533
+
+>>>test 73<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 10 with loss 0.55675 and  accuracy 0.96793
+
+>>>test 74<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 13 with loss 0.76683 and  accuracy 0.94793
+
+>>>test 75<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 12 with loss 0.78806 and  accuracy 0.95217
+
+>>>test 76<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 10 with loss 1.00606 and  accuracy 0.93380
+
+>>>test 77<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 13 with loss 0.72516 and  accuracy 0.97580
+
+>>>test 78<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 10 with loss 0.87587 and  accuracy 0.97360
+
+>>>test 79<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+input	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+input	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+input	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+input	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+input	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 9 with loss 0.48495 and  accuracy 0.98267
+
+>>>test 80<<<
+input	convolution	channels: 8	activation: relu	l1 regularization: 0.01
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 8 with loss 0.60820 and  accuracy 0.96223
+
+>>>test 81<<<
+input	convolution	channels: 16	activation: relu	l1 regularization: 0.01
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 10 with loss 0.57905 and  accuracy 0.97103
+
+>>>test 82<<<
+input	convolution	channels: 64	activation: relu	l1 regularization: 0.01
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 12 with loss 0.44379 and  accuracy 0.97737
+
+>>>test 83<<<
+input	convolution	channels: 128	activation: relu	l1 regularization: 0.01
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 12 with loss 0.69522 and  accuracy 0.95217
+
+>>>test 84<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	dropout	rate: 0.2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.01
+hidden	maxpool	pool size: 2
+hidden	dropout	rate: 0.2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.01
+hidden	maxpool	pool size: 2
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 1 with loss 2.30121 and  accuracy 0.11350
+
+>>>test 85<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.01
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.01
+hidden	maxpool	pool size: 2
+hidden	flatten	
+hidden	dropout	rate: 0.2
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.01
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 1 with loss 2.30110 and  accuracy 0.11350
+
+>>>test 86<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	dropout	rate: 0.5
+hidden	convolution	channels: 128	activation: relu	l1 regularization: 0.02
+hidden	batchnorm	
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 9 with loss 0.91645 and  accuracy 0.94660
+
+>>>test 87<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 128	activation: relu	l1 regularization: 0.02
+hidden	batchnorm	
+hidden	flatten	
+hidden	dropout	rate: 0.5
+hidden	dense	neurons: 128	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 5 with loss 0.66332 and  accuracy 0.95247
+
+>>>test 88<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 128	activation: relu	l1 regularization: 0.02
+hidden	batchnorm	
+hidden	flatten	
+hidden	dropout	rate: 0.5
+hidden	dense	neurons: 128	activation: relu	l1 regularization: 0.01
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 1 with loss 2.30111 and  accuracy 0.11350
+
+>>>test 89<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.01
+hidden	batchnorm	
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 32	activation: relu	l1 regularization: 0.01
+hidden	batchnorm	
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.01
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 1 with loss 2.30111 and  accuracy 0.11350
+
+>>>test 90<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 32	activation: relu	l1 regularization: 0.02
+hidden	batchnorm	
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 32	activation: relu	l1 regularization: 0.02
+hidden	batchnorm	
+hidden	flatten	
+hidden	dense	neurons: 32	activation: relu	l1 regularization: 0.02
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 1 with loss 2.30111 and  accuracy 0.11350
+
+>>>test 91<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.0
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 11 with loss 0.73375 and  accuracy 0.94480
+
+>>>test 92<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.01
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.01
+hidden	convolution	channels: 32	activation: relu	l1 regularization: 0.01
+hidden	batchnorm	
+hidden	flatten	
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 5 with loss 1.83019 and  accuracy 0.39877
+
+>>>test 93<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.01
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.01
+hidden	convolution	channels: 32	activation: relu	l1 regularization: 0.01
+hidden	batchnorm	
+hidden	flatten	
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.01
+Best validation at epoch 7 with loss 0.59844 and  accuracy 0.95547
+
+>>>test 94<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.01
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.01
+hidden	batchnorm	
+hidden	maxpool	pool size: 2
+hidden	flatten	
+output	dense	neurons: 64	activation: relu	l1 regularization: 0.01
+hidden	batchnorm	
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 9 with loss 0.83830 and  accuracy 0.93003
+
+>>>test 95<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.01
+hidden	batchnorm	
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.01
+hidden	batchnorm	
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.01
+hidden	batchnorm	
+hidden	maxpool	pool size: 2
+hidden	flatten	
+output	dense	neurons: 64	activation: relu	l1 regularization: 0.01
+hidden	batchnorm	
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 3 with loss 2.26755 and  accuracy 0.19620
+
+>>>test 96<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	dropout	rate: 0.2
+hidden	convolution	channels: 128	activation: relu	l1 regularization: 0.02
+hidden	batchnorm	
+hidden	maxpool	pool size: 2
+hidden	flatten	
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 9 with loss 0.72464 and  accuracy 0.91677
+
+>>>test 97<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.01
+hidden	maxpool	pool size: 2
+hidden	dropout	rate: 0.2
+hidden	convolution	channels: 128	activation: relu	l1 regularization: 0.02
+hidden	batchnorm	
+hidden	maxpool	pool size: 2
+hidden	flatten	
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 8 with loss 0.67734 and  accuracy 0.92220
+
+>>>test 98<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.01
+hidden	batchnorm	
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.01
+hidden	batchnorm	
+hidden	maxpool	pool size: 2
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.01
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 1 with loss 2.30112 and  accuracy 0.11350
+
+>>>test 99<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.01
+hidden	batchnorm	
+hidden	maxpool	pool size: 2
+hidden	dropout	rate: 0.2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.01
+hidden	batchnorm	
+hidden	maxpool	pool size: 2
+hidden	flatten	
+hidden	dense	neurons: 64	activation: relu	l1 regularization: 0.01
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 5 with loss 2.17451 and  accuracy 0.35393
+
+>>>test 100<<<
+input	convolution	channels: 32	activation: relu	l1 regularization: 0.0
+hidden	maxpool	pool size: 2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.01
+hidden	batchnorm	
+hidden	maxpool	pool size: 2
+hidden	dropout	rate: 0.2
+hidden	convolution	channels: 64	activation: relu	l1 regularization: 0.01
+hidden	batchnorm	
+hidden	maxpool	pool size: 2
+hidden	flatten	
+hidden	dropout	rate: 0.5
+hidden	dense	neurons: 128	activation: relu	l1 regularization: 0.01
+output	dense	neurons: 10	activation: softmax	l1 regularization: 0.0
+Best validation at epoch 1 with loss 2.30113 and  accuracy 0.11350

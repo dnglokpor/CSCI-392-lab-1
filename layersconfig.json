@@ -1,0 +1,5586 @@
+{
+	"tests": [
+		{
+			"1": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 8,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"2": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 16,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"3": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"4": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"5": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 128,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"6": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 8,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"7": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 16,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"8": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"9": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 128,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"10": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 8,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"11": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 16,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"12": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"13": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 128,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"14": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 8,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"15": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 16,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"16": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"17": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 128,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"18": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 8,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 8,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"19": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 16,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 16,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"20": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"21": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 128,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 128,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"22": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 8,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 8,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 8,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"23": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 16,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 16,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 16,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"24": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"25": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 128,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 128,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 128,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"26": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "dropout",
+					"rate": 0.2
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"27": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "dropout",
+					"rate": 0.2
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"28": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dropout",
+					"rate": 0.2
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"29": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "dropout",
+					"rate": 0.3
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"30": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "dropout",
+					"rate": 0.3
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"31": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dropout",
+					"rate": 0.3
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"32": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "dropout",
+					"rate": 0.5
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"33": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "dropout",
+					"rate": 0.5
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"34": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dropout",
+					"rate": 0.5
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"35": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "dropout",
+					"rate": 0.2
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "dropout",
+					"rate": 0.2
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"36": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "dropout",
+					"rate": 0.3
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "dropout",
+					"rate": 0.3
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"37": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "dropout",
+					"rate": 0.5
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "dropout",
+					"rate": 0.5
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"38": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "dropout",
+					"rate": 0.2
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "dropout",
+					"rate": 0.2
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dropout",
+					"rate": 0.2
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"39": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "dropout",
+					"rate": 0.3
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "dropout",
+					"rate": 0.3
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dropout",
+					"rate": 0.3
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"40": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "dropout",
+					"rate": 0.5
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "dropout",
+					"rate": 0.5
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dropout",
+					"rate": 0.5
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"41": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"42": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"43": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"44": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"45": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.01
+				}
+			]
+		},
+		{
+			"46": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.02
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"47": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.02
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"48": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.02
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"49": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.02
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"50": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.02
+				}
+			]
+		},
+		{
+			"51": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"52": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"53": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"54": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.01
+				}
+			]
+		},
+		{
+			"55": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.01
+				}
+			]
+		},
+		{
+			"56": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"57": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"58": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.01
+				}
+			]
+		},
+		{
+			"59": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"60": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.01
+				}
+			]
+		},
+		{
+			"61": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"62": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"63": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"64": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"65": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "batchnorm"
+				}
+			]
+		},
+		{
+			"66": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"67": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"68": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"69": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"70": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"71": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"72": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"73": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"74": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"75": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"76": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"77": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"78": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"79": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"80": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 8,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"81": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 16,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"82": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"83": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 128,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"84": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "dropout",
+					"rate": 0.2
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "dropout",
+					"rate": 0.2
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"85": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dropout",
+					"rate": 0.2
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"86": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "dropout",
+					"rate": 0.5
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 128,
+					"activation": "relu",
+					"regularization": 0.02
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"87": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 128,
+					"activation": "relu",
+					"regularization": 0.02
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dropout",
+					"rate": 0.5
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 128,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"88": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 128,
+					"activation": "relu",
+					"regularization": 0.02
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dropout",
+					"rate": 0.5
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 128,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"89": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"90": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.02
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.02
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 32,
+					"activation": "relu",
+					"regularization": 0.02
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"91": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"92": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"93": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.01
+				}
+			]
+		},
+		{
+			"94": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"95": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"96": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "dropout",
+					"rate": 0.2
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 128,
+					"activation": "relu",
+					"regularization": 0.02
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"97": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "dropout",
+					"rate": 0.2
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 128,
+					"activation": "relu",
+					"regularization": 0.02
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"98": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"99": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "dropout",
+					"rate": 0.2
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		},
+		{
+			"100": [
+				{
+					"position": "input",
+					"type": "convolution",
+					"nChannels": 32,
+					"activation": "relu",
+					"regularization": 0.0
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "dropout",
+					"rate": 0.2
+				},
+				{
+					"position": "hidden",
+					"type": "convolution",
+					"nChannels": 64,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "hidden",
+					"type": "batchnorm"
+				},
+				{
+					"position": "hidden",
+					"type": "maxpool"
+				},
+				{
+					"position": "hidden",
+					"type": "flatten"
+				},
+				{
+					"position": "hidden",
+					"type": "dropout",
+					"rate": 0.5
+				},
+				{
+					"position": "hidden",
+					"type": "dense",
+					"nNeurons": 128,
+					"activation": "relu",
+					"regularization": 0.01
+				},
+				{
+					"position": "output",
+					"type": "dense",
+					"nNeurons": 10,
+					"activation": "softmax",
+					"regularization": 0.0
+				}
+			]
+		}
+	]
+}
